@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+/* Header */
+.header{
+	width:1018px;
+	height:54px;
+	background: #48aeb2; 
+	background: -moz-linear-gradient(top,  #48aeb2 0%, #2a8083 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48aeb2), color-stop(100%,#2a8083)); 
+	background: -webkit-linear-gradient(top,  #48aeb2 0%,#2a8083 100%);
+	background: -o-linear-gradient(top,  #48aeb2 0%,#2a8083 100%); 
+	background: -ms-linear-gradient(top,  #48aeb2 0%,#2a8083 100%); 
+	background: linear-gradient(to bottom,  #48aeb2 0%,#2a8083 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48aeb2', endColorstr='#2a8083',GradientType=0 ); 
+	position: relative;
+	text-align: left;
+	padding: 6pt 0pt 0pt 6pt;
+}
+/* Conatiner*/
+.container{
+	margin: 6pt 0pt 0pt 0pt;
+	width:1024px;
+	height: auto;
+	position: relative;
+	text-align: left;
+}
+/* search in Conatiner*/
+.search{
+	padding: 6pt 6pt 6pt 6pt;
+	margin: 0pt 0pt 6pt 0pt;
+	background-color: #E3E8E8;
+	border: 1px solid #065e61;
+}
+.search input#by_number{
+	float: right;
+	margin: 0pt 0pt 0pt 5pt;
+}
+.customers_result{
+	height: auto;
+	width: 100%;
+	padding: 6pt 0pt 6pt 0pt;
+	margin: 0pt 0pt 6pt 0pt;
+	background-color: #E3E8E8;
+	border: 1px solid #065e61;
+}
+table#list td{
+	width : 100%;
+	margin : 5pt 5pt 5pt 5pt; 
+}
+table#list td a{
+	color: black;
+}
+/* customer in Conatiner*/
+.customer{
+	width:100%;
+	height: auto;
+	position: relative;
+	text-align: left;
+	display: inline-block;
+	float:  left;
+	background-color: #e3e8e8;
+	padding: 6pt 0pt 6pt 0pt;
+	border: 1px solid #065e61;
+	margin: 0pt 0pt 10pt 0pt;
+}
+
+.user_image{
+	float : left;
+	margin: 0pt 6pt 0pt 6pt;
+}
+.user_info{
+	float : left;
+	width : 50%;
+	height: 100%;
+}
+.user_order{
+	float: right;
+	height: 100%;
+	width : 30%;
+}
+ul#tabs { 
+	list-style-type: 
+	none; margin: 30px 0 0 0; 
+	padding: 0 0 0.3em 0; 
+}
+ul#tabs li { 
+	display: inline; 
+}
+ul#tabs li a { 
+	color: #42454a; 
+	background-color: #dedbde; 
+	border: 1px solid #065e61; 
+	border-bottom: none; 
+	padding: 0.3em; 
+	text-decoration: none; 
+}
+ul#tabs li a:hover { 
+	background-color: #f1f0ee; 
+}
+#Coat_Sherwani{
+	background-color: #E3E8E8;
+	border: 1px solid #065e61;
+	padding: 0pt 0pt 10pt 0pt;
+}
+
+table#customer_details td{
+	width : 200px;
+}
+table#customer_details td input{
+	width : 120px;
+	margin: 0pt 5pt 0pt 0pt;
+}
+/* Footer */
+.footer{
+	width:1018px;
+	height:21px;
+	background: #48aeb2; 
+	background: -moz-linear-gradient(top,  #48aeb2 0%, #2a8083 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48aeb2), color-stop(100%,#2a8083));
+	background: -webkit-linear-gradient(top,  #48aeb2 0%,#2a8083 100%);
+	background: -o-linear-gradient(top,  #48aeb2 0%,#2a8083 100%); 
+	background: -ms-linear-gradient(top,  #48aeb2 0%,#2a8083 100%); 
+	background: linear-gradient(to bottom,  #48aeb2 0%,#2a8083 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48aeb2', endColorstr='#2a8083',GradientType=0 ); 
+	position: relative;
+	text-align: left;
+	font-size: 11px;
+	display: inline-block;
+	padding: 6pt 0pt 0pt 6pt;
+}
